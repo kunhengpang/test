@@ -1,0 +1,58 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# ---- 环境变量 / 密钥 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- 日志 / 临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+coverage/
+.cache/
+.next/
+out/
+
+# ---- 压缩包 / 构建产物 ----
+*.zip
+*.7z
+*.rar
+*.tar.gz
